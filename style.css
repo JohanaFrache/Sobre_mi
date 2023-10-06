@@ -1,0 +1,78 @@
+header {
+    background-color: #D1FFFB;
+    padding: 20px;
+    text-align: center;
+    font-style:normal; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #213030;
+}
+
+section {
+    background-color: #ffff;
+    padding: 20px;
+    margin: 20px;
+    border-left: 1px solid #ffff;
+    color: #213030;
+    text-align: left;
+    font-style:normal; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#info-personal h2, #habilidades h2 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #D1FFFB;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #213030;
+}
+
+#info-personal h2, #habilidades h2 {
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#habilidades ul {
+    color: #213030;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    bottom: 0;
+    width: max-content;
+    margin: 30px;
+}
+#info-personal p {
+    color: #213030;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+}
+
+footer {
+    color: #213030;
+    text-align: left;
+    margin: 60px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    header, #info-personal, #habilidades {
+        padding: 10px;
+    }
+    h1, h2 {
+        font-size: 18px;
+    }
+}
+@media only screen and (mid-width: 601px) and (max-width: 1024px) {
+    header, #info-personal, #habilidades {
+        padding: 20px;
+    }
+    h1, h2 {
+        font-size: 22px;
+    }
+}
+@media only screen and (mid-width: 1025px) {
+    header, #info-personal, #habilidades {
+        padding: 30px;
+    }
+    h1, h2 {
+        font-size: 28px;
+    }
+}
